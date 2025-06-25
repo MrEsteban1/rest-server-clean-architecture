@@ -1,0 +1,19 @@
+{
+  "name": "rest-server-clean-architecture",
+  "version": "1.0.0",
+  "description": "desarrollo base para utilizar clean architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --clear src app.ts",
+    "start": "npm run build && node dist/app.js"
+  },
+  "author": "MrEsteban1",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
