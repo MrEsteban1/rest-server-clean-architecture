@@ -1,2 +1,2 @@
 export * from './datasources/mongo/auth.datasource.mongo'
-// export * from './repositories/'
+export * from './repositories/auth.repository.impl'
