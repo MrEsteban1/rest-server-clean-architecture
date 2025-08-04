@@ -12,7 +12,7 @@ export class CustomError extends Error {
         return new CustomError(httpStatusCode, message)
     }
 
-    static internalServerError(){
-        return new CustomError(HttpStatusCode.InternalServerError,"Error interno en el servidor.")
+    static internalServerError(message:string){
+        return new CustomError(HttpStatusCode.InternalServerError,message ?? "Error interno en el servidor.")
     }
 }
